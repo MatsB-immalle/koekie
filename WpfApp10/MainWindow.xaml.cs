@@ -20,9 +20,16 @@ namespace WpfApp10
     /// </summary>
     public partial class MainWindow : Window
     {
+        int teller;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Mijnknop.Content = 1;
+            
         }
     }
 }
