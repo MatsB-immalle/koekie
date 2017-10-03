@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp10"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <Button x:Name="Mijnknop" Content="" HorizontalAlignment="Left" Margin="194,154,0,0" VerticalAlignment="Top" Width="140" Height="59" Click="Button_Click"/>
+        Title="MainWindow" Height="350" Width="525" Background="Black">
+    <Grid x:Name="koekje">
+        <Image x:Name="koekje1" Margin="196,145,210,67" Source="Image1.png" Stretch="Fill" MouseLeftButtonDown="koekje1_MouseLeftButtonDown"/>
+        <Label x:Name="Mijnlabel" Content="Label" HorizontalAlignment="Left" Margin="204,90,0,0" VerticalAlignment="Top" Height="50" Width="103"/>
 
     </Grid>
 </Window>

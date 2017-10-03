@@ -28,7 +28,13 @@ namespace WpfApp10
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Mijnknop.Content = 1;
+
+            Mijnknop.Content = teller;
+            teller++;
+        }
+
+        private void koekje1_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
             
         }
     }
