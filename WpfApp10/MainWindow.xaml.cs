@@ -20,22 +20,25 @@ namespace WpfApp10
     /// </summary>
     public partial class MainWindow : Window
     {
+        int click;
         int teller;
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
+        
 
-            Mijnknop.Content = teller;
+       
+
+        private void koekje1_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Mijnlabel.Content = teller;
             teller++;
         }
 
-        private void koekje1_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            
-        }
-    }
+        
+        if(click == 50)
+    }     
+
 }
