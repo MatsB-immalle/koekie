@@ -11,8 +11,18 @@
             <ColumnDefinition Width="68*"/>
             <ColumnDefinition Width="449*"/>
         </Grid.ColumnDefinitions>
-        <Image x:Name="koekje1" Margin="128,145,260,118" Source="Image1.png" Stretch="Fill"  Grid.Column="1" MouseEnter="koekje1_MouseEnter"  />
-        <Label x:Name="Mijnlabel" Content="" HorizontalAlignment="Left" Margin="160,95,0,0" VerticalAlignment="Top" Height="50" Width="193" Foreground="Red" Background="Black" FontSize="24" Grid.Column="1"/>
+        <Image x:Name="koekje1" Margin="31,68,430,195" Source="Image1.png" Stretch="Fill"  PreviewMouseWheel="koekje1_PreviewMouseWheel" Grid.ColumnSpan="2"   />
+        <Label x:Name="Mijnlabel" Content="" HorizontalAlignment="Left" Margin="31,27,0,0" VerticalAlignment="Top" Height="41" Width="94" Foreground="Red" Background="Black" FontSize="24" Grid.ColumnSpan="2"/>
+        <Image x:Name="koekje1_Copy" Margin="154,68,234,195" Source="Image1.png" Stretch="Fill"  PreviewMouseWheel="koekje1_PreviewMouseWheel" Grid.Column="1"   />
+        <Image x:Name="koekje1_Copy1" Margin="31,253,430,10" Source="Image1.png" Stretch="Fill"  PreviewMouseWheel="koekje1_PreviewMouseWheel" Grid.ColumnSpan="2"   />
+        <Image x:Name="koekje1_Copy2" Margin="348,253,40,10" Source="Image1.png" Stretch="Fill"  PreviewMouseWheel="koekje1_PreviewMouseWheel" Grid.Column="1"   />
+        <Image x:Name="koekje1_Copy3" Margin="154,253,234,10" Source="Image1.png" Stretch="Fill"  PreviewMouseWheel="koekje1_PreviewMouseWheel" Grid.Column="1"   />
+        <Image x:Name="koekje1_Copy4" Margin="348,68,40,195" Source="Image1.png" Stretch="Fill"  PreviewMouseWheel="koekje1_PreviewMouseWheel" Grid.Column="1"   />
+        <Label Content="Label" Grid.Column="1" HorizontalAlignment="Left" Margin="154,27,0,0" VerticalAlignment="Top" Height="36" Width="94"/>
+        <Label Content="Label" Grid.Column="1" HorizontalAlignment="Left" Margin="348,27,0,0" VerticalAlignment="Top" Width="94" Height="36"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="31,214,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="94" Height="34"/>
+        <Label Content="Label" Grid.Column="1" HorizontalAlignment="Left" Margin="154,214,0,0" VerticalAlignment="Top" Width="94" Height="35"/>
+        <Label Content="Label" Grid.Column="1" HorizontalAlignment="Left" Margin="348,214,0,0" VerticalAlignment="Top" Height="35" Width="94"/>
 
 
     </Grid>

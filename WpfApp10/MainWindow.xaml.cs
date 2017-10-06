@@ -20,25 +20,25 @@ namespace WpfApp10
     /// </summary>
     public partial class MainWindow : Window
     {
-        int click;
+        
         int teller;
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        
+      
 
-       
-
-        private void koekje1_MouseEnter(object sender, MouseEventArgs e)
+        private void koekje1_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
         {
             Mijnlabel.Content = teller;
             teller++;
-        }
 
-        
-        if(click == 50)
+            if (teller == 51)
+            {
+                MessageBox.Show("50 is gehaald", "koekje", MessageBoxButton.OKCancel);
+            }
+        }
     }     
 
 }
